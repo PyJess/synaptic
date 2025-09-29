@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because the actual output is perfectly aligned with the retrieval context, showcasing a complete match without any contradictions. Great job on maintaining a faithful representation!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9347826086956522,
+    "answer_relevancy-DeepEval-reason": "The score is 0.93 because the structured output thoroughly captures the primary objective, endpoints, and estimands crucial to the clinical trial section requested. While most of the output aligns well with the input requirements, the score is slightly reduced due to sections that describe general eligibility without directly contributing to the specific objectives or endpoints of the study. This minor deviation keeps it shy of a perfect score."
+}

@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. Everything aligns perfectly, showcasing a seamless synthesis of accurate information.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6060606060606061,
+    "answer_relevancy-DeepEval-reason": "The score is 0.61 because while the introduction section lays out essential information about the trial, many irrelevant details were included that were not necessary for a high-level overview. These extraneous elements, such as specific safety data, intricate drug interactions, and overly detailed adverse reactions, made the introduction less focused on its main goal of outlining the study parameters. At the same time, the foundation of the study's purpose, design, and primary aspects such as the target disease, aim, and randomization approach were accurately captured, supporting the assigned score."
+}

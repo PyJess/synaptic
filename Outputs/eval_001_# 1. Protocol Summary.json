@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions found, indicating a perfectly aligned actual output with the retrieval context. Great job on maintaining complete consistency!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9090909090909091,
+    "answer_relevancy-DeepEval-reason": "The score is 0.91 because the majority of the information provided in the output meticulously adheres to the input and covers all required elements for the protocol summary. The slight deduction in score pertains to including administrative details that, while informative, were not essential to the summary content, such as protocol numbers and manufacturer addresses. Nonetheless, the output remains highly relevant and well-structured."
+}
