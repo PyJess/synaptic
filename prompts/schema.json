@@ -1,0 +1,72 @@
+{
+  "title": "Clinical Study JSON Schema",
+  "type": "object",
+  "properties": {
+    "sponsor_name": { "type": "string" },
+    "study_acronym": { "type": "string" },
+    "tested_imp": { "type": "string" },
+    "comparative_drug": { "type": "string" },
+    "study_type": { "type": "string" },
+    "interventional_study_phase": { "type": "string" },
+    "study_design": { "type": "string" },
+    "aim_of_study": { "type": "string" },
+    "target_disease": { "type": "string" },
+    "type_of_randomization": { "type": "string" },
+    "randomization_stratification": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "apixaban_dosing": { "type": "string" },
+    "dalteparin_dosing": { "type": "string" },
+    "apixaban_supply_form": { "type": "string" },
+    "dalteparin_supply_form": { "type": "string" },
+    "scheduled_visits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "primary_efficacy_outcome": { "type": "string" },
+    "secondary_efficacy_outcomes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "primary_safety_outcome": { "type": "string" },
+    "secondary_safety_outcomes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "maximum_sample_size_per_arm": { "type": "integer" },
+    "recommended_inclusion_criteria": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "recommended_exclusion_criteria": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": [
+    "sponsor_name",
+    "study_acronym",
+    "tested_imp",
+    "comparative_drug",
+    "study_type",
+    "interventional_study_phase",
+    "study_design",
+    "aim_of_study",
+    "target_disease",
+    "type_of_randomization",
+    "randomization_stratification",
+    "apixaban_dosing",
+    "dalteparin_dosing",
+    "apixaban_supply_form",
+    "dalteparin_supply_form",
+    "scheduled_visits",
+    "primary_efficacy_outcome",
+    "secondary_efficacy_outcomes",
+    "primary_safety_outcome",
+    "secondary_safety_outcomes",
+    "maximum_sample_size_per_arm",
+    "recommended_inclusion_criteria",
+    "recommended_exclusion_criteria"
+  ]
+}

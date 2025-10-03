@@ -1483,7 +1483,7 @@ Current/Former Names(s) or Alias(es): If applicable, add current and former name
 
 <Start of suggested text>
 
-Table 1.  Study Intervention(s) Administered
+Table .  Study Intervention(s) Administered
 
 Table 2:
 

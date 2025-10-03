@@ -33,7 +33,7 @@ Date
 [Title]
 Medical Monitor Name and Contact Information
 # 1. Protocol Summary
-# 1.1 Synopsis
+## 1.1 Synopsis
 Protocol Title:
 A Study to Compare the Efficacy and Safety of Apixaban to the Standard of Care (SOC) Dalte
 ‐
@@ -142,8 +142,8 @@ for the first month, followed by a maintenance dose of 150 IU/kg o.i.d. for the 
 months.
 The total treatment duration for each participant will be 6 months.
 Data Monitoring/Other Committee: [Yes/No]
-# 1.2 Schema
-# 1.3 Schedule of Activities (SoA)
+## 1.2 Schema
+## 1.3 Schedule of Activities (SoA)
 Procedure
 Screening
 (up to
@@ -429,7 +429,7 @@ will compare apixaban, a direct oral anticoagulant (DOAC), with dalteparin, a lo
 weight heparin (LMWH), for the treatment of acute venous thromboembolism in patients with
 cancer. The risk of bleeding associated with DOACs appears to vary with cancer type and the
 type of DOAC; a threefold to fourfold higher risk is reported for patients with GI cancers.
-# 2.1 Study Rationale
+## 2.1 Study Rationale
 The trial will be designed to compare the efficacy and safety of apixaban with the standard of
 care (SOC), dalteparin (a low-molecular-weight heparin, LMWH), for the treatment of acute
 venous thromboembolism (VTE) in patients with cancer. The study will evaluate apixaban for
@@ -438,7 +438,7 @@ is based on the hypothesis that apixaban will demonstrate a favorable balance be
 ‐
 able and undesirable effects for the treatment of VTE in patients with cancer, in the context of
 current evidence and cost-effectiveness considerations.
-# 2.2 Background
+## 2.2 Background
 The study will enroll patients with cancer-associated venous thromboembolism (VTE). Approxim
 ‐
 ately 5% to 20% of patients with cancer develop a VTE, and approximately 20% of all VTE
@@ -457,7 +457,7 @@ Previous clinical trials have evaluated apixaban against dalteparin for the trea
 patients with cancer. The direct factor Xa inhibitors apixaban, edoxaban, and rivaroxaban are
 the only DOACs that were evaluated for the short-term treatment of VTE for patients with
 cancer, and different DOACs have different drug-drug interactions.
-# 2.3 Benefit/Risk Assessment
+## 2.3 Benefit/Risk Assessment
 ## 2.3.1 Risk Assessment
 The main safety endpoint for this trial will be major bleeding. Common adverse reactions
 expected with these agents include haemorrhage, contusion, epistaxis, and haematoma. Safety
@@ -556,7 +556,7 @@ Bleeding and CRNMB) according to the
 primary cancer site (Gastrointestinal,
 Genitourinary, Lung, Breast, Gynecological,
 Hematological).
-# 3.1 Estimand(s) for Primary Objective(s)
+## 3.1 Estimand(s) for Primary Objective(s)
 Population:
 Patients with cancer and symptomatic or incidentally diagnosed acute proximal
 deep vein thrombosis (DVT) or pulmonary embolism (PE). Patients with basal cell or
@@ -581,7 +581,7 @@ The trial will be designed to test for non-inferiority. The non-inferiority desi
 based on the hypothesis that apixaban will provide a favorable balance between benefits
 and harms.
 Supplementary Estimand(s)
-# 3.2 Estimands for Secondary Objective(s)
+## 3.2 Estimands for Secondary Objective(s)
 Secondary estimand(s) for Secondary Objective
 -
 Secondary Safety Outcomes:
@@ -615,7 +615,7 @@ type, cancer treatment, and whether the initial VTE was incidental versus sympto
 analyses will explore if patients with incidental VTE have a different risk profile for recurrence
 and major bleeding compared to patients with symptomatic VTE.
 Supplementary Estimand(s)
-# 3.3 Estimands for [Tertiary/Exploratory/Other] Objectives
+## 3.3 Estimands for [Tertiary/Exploratory/Other] Objectives
 [Tertiary/Exploratory/Other] Estimand(s)
 -
 Correlation Analyses:
@@ -627,7 +627,7 @@ bleeding is higher in certain cancer types, such as gastrointestinal (GI) and ge
 cancer. A further sub-analysis will assess if rates of recurrent VTE vary by cancer type.
 Supplementary Estimand(s)
 # 4. Study Design
-# 4.1 Overall Design
+## 4.1 Overall Design
 This will be an international, multicenter, Phase IIIB/Phase 3, pivotal, interventional clinical study
 involving approximately 1,170 patients. The study will employ a Prospective Randomized Open
 Blinded End-point (PROBE) design, where patients and investigators will be aware of treatment
@@ -639,7 +639,7 @@ The study will consist of a 6-month treatment period and will include both rando
 preference cohorts. Patients will be randomly assigned to receive either apixaban or a low-
 molecular-weight heparin (LMWH), dalteparin. The LMWH arm will include the potential for a
 transition to warfarin. The treatment duration for both arms will be 6 months.
-# 4.2 Scientific Rationale for Study Design
+## 4.2 Scientific Rationale for Study Design
 The trial will be designed to compare the efficacy and safety of apixaban with the standard of
 care (SOC), dalteparin (a low-molecular-weight heparin, LMWH), for the treatment of acute
 venous thromboembolism (VTE) in patients with cancer. The primary objective will be to assess
@@ -666,7 +666,7 @@ aggregated responses will be used by the sponsor to understand where improvement
 made in the clinical trial process. This questionnaire will not collect data about the participant’s
 disease, symptoms, treatment effect, or adverse events and will be analyzed and reported
 separately from the clinical study data.
-# 4.3 Justification for Dose
+## 4.3 Justification for Dose
 Administration  of  the  investigational  product  will  be  discontinued  if  a  severe  haemorrhage
 occurs, or prior to elective surgery or invasive procedures that carry a risk of bleeding.
 - Apixaban should be discontinued at least 48 hours prior to elective surgery or invasive
@@ -686,7 +686,7 @@ bleeding between the apixaban and dalteparin arms. A sub-analysis will evaluate 
 major bleeding are higher in patients with certain cancer types, such as genitourinary and
 gastrointestinal (GI) cancers. DOACs should be used carefully for patients with GI cancers
 because of the higher risk of GI bleeding.
-# 4.4 End-of-Study Definition
+## 4.4 End-of-Study Definition
 The end of the study will be defined as the date of the last visit of the last participant in the study.
 A participant will be considered to have completed the study if they have completed the 6-month
 treatment period and the follow-up visit scheduled at 7 months from randomization. The primary
@@ -704,7 +704,7 @@ proximal deep vein thrombosis (DVT) or pulmonary embolism (PE). The randomised c
 planned to include approximately 671 patients.
 Prospective approval of protocol deviations to recruitment and enrollment criteria, also known as
 protocol waivers or exemptions, will not be permitted.
-# 5.1 Inclusion Criteria
+## 5.1 Inclusion Criteria
 Participants will be eligible to be included in the study only if all of the following criteria apply:
 ## Age
 Participant must be greater than 18 years of age.
@@ -734,7 +734,7 @@ childbearing potential are detailed in the exclusion criteria.
 ## Informed Consent
 Signed informed consent as described in Appendix 1 which includes compliance with the
 requirements and restrictions listed in the informed consent form (ICF) and in this protocol.
-# 5.2 Exclusion Criteria
+## 5.2 Exclusion Criteria
 Participants will be excluded from the study if any of the following criteria apply:
 1.
 2.
@@ -817,7 +817,7 @@ Hemoglobin level lower than 8 g/dL (5.0 mmol/L) or a platelet count <75x10⁹/L.
 History of heparin-induced thrombocytopenia.
 ## Other Exclusion Criteria
 Age less than 18 years.
-# 5.3 Lifestyle Considerations
+## 5.3 Lifestyle Considerations
 No specific lifestyle restrictions were provided in the source document.
 ## 5.3.1 Meals and Dietary Restrictions
 No specific meal or dietary restrictions were provided in the source document.
@@ -837,12 +837,12 @@ No specific restrictions on caffeine, alcohol, or tobacco were provided in the s
 No specific activity restrictions were provided in the source document.
 ## 5.3.4 Other Restrictions
 No other specific restrictions were provided in the source document.
-# 5.4 Screen Failures
+## 5.4 Screen Failures
 A screen failure will occur when a participant who has consented to participate in the clinical
 study is not subsequently assigned to study intervention. No information regarding rescreening
 was provided in the source document.
-# 5.5 Criteria for Temporarily Delaying [Enrollment/
-# Randomization/Administration of Study Intervention]
+## 5.5 Criteria for Temporarily Delaying [Enrollment/
+## Randomization/Administration of Study Intervention]
 No information was provided in the source document.
 # 6. Study Intervention(s) and Concomitant Therapy
 Study interventions will be all pre-specified, investigational and non-investigational medicinal
@@ -879,7 +879,7 @@ Dalteparin
 No information was provided in the source document.
 ## 6.1.2 Medical Devices
 No information was provided in the source document.
-# 6.2 Preparation, Handling, Storage, and Accountability
+## 6.2 Preparation, Handling, Storage, and Accountability
 Apixaban will not require any special storage conditions. Dalteparin should be stored below
 30°C and must not be frozen. It will be compatible with isotonic sodium chloride (9 mg/ml) or
 isotonic glucose (50 mg/ml) infusion solutions in both glass bottles and plastic containers.
@@ -890,7 +890,7 @@ immediately administered orally. Crushed Apixaban tablets will be stable in thes
 and immediately delivered through a nasogastric tube.
 Further guidance and information for the final disposition of unused study interventions will be
 provided in the study reference manual.
-# 6.3 Assignment to Study Intervention
+## 6.3 Assignment to Study Intervention
 Patients will be centrally and randomly assigned to receive either apixaban or dalteparin.
 The protocol will include procedures for switching between treatments:
 *
@@ -905,15 +905,15 @@ When converting patients from Apixaban to VKA
 therapy, administration of Apixaban should be continued for at least 2 days after beginning VKA
 therapy. After 2 days of coadministration, an INR should be obtained prior to the next scheduled
 dose of Apixaban. Coadministration should be continued until the INR is ≥ 2.
-# 6.4 [Blinding, Masking]
+## 6.4 [Blinding, Masking]
 This will be an open-label study using a Prospective Randomized Open Blinded End-point
 (PROBE) approach. Patients and investigators will be aware of treatment assignments. How
 ‐
 ever, the outcome adjudication committee will be blinded to treatment allocation to minimize
 bias.
-# 6.5 Study Intervention Compliance
+## 6.5 Study Intervention Compliance
 No information was provided in the source document.
-# 6.6 Dose Modification
+## 6.6 Dose Modification
 Apixaban:
 No dose adjustment will be necessary for patients with mild or moderate renal
 impairment. Apixaban will be used with caution in patients with severe renal impairment. For
@@ -927,14 +927,14 @@ events (bleeding or thrombosis). The dose can be adjusted by increments/decremen
 bleeding, prolonged access compression time (>10 minutes), or other clinical events.
 •
 •
-# 6.7 Continued Access to Study Intervention after the End of
-# the Study
+## 6.7 Continued Access to Study Intervention after the End of
+## the Study
 Following the 6-month treatment period, long-term anticoagulation for secondary VTE prophylax
 ‐
 is should be considered for patients with active cancer. The decision to continue anticoagulation
 will depend on the type and stage of cancer, overall prognosis, periodic reevaluations of the risk
 of recurrent VTE and bleeding, comorbidities, costs, and patients’ preferences.
-# 6.8 Treatment of Overdose
+## 6.8 Treatment of Overdose
 For this study, any dose of apixaban that results in a higher risk of bleeding may be considered
 an overdose.
 In the event of an overdose or haemorrhagic complications, the investigator should:
@@ -946,7 +946,7 @@ complex concentrates (PCCs) or recombinant factor VIIa may also be considered [3
 - Administration of activated charcoal may be useful in the management of apixaban overdose or
 accidental ingestion.
 - Haemodialysis is unlikely to be an effective means of managing apixaban overdose.
-# 6.9 Prior and Concomitant Therapy
+## 6.9 Prior and Concomitant Therapy
 Any medication or vaccine (including over-the-counter or prescription medicines, recreational
 drugs, vitamins, and/or herbal supplements) that the participant is receiving at the time of
 enrollment or receives during the study must be recorded along with the reason for use, dates of
@@ -972,7 +972,7 @@ consideration of potential drug-drug interactions.
 # 7. Discontinuation of Study Intervention and
 # Participant Discontinuation/Withdrawal
 Discontinuation of specific sites or of the study as a whole will be detailed in Appendix 1.
-# 7.1 Discontinuation of Study Intervention
+## 7.1 Discontinuation of Study Intervention
 In rare instances, it may be necessary for a participant to permanently discontinue study inter
 ‐
 vention.  If  study  intervention  is  permanently  discontinued,  the  participant  should,  if  at  all
@@ -1009,8 +1009,8 @@ temporarily discontinued for any reason, therapy should be restarted as soon as 
 ## 7.1.4 Rechallenge
 This section will describe the procedures for restarting the intervention after stopping criteria
 have been met.
-7.1.4.1 Study Intervention Restart or Rechallenge After Liver Stopping Criteria Are
-Met
+## 7.1.4.1 Study Intervention Restart or Rechallenge After Liver Stopping Criteria Are
+## Met
 Study intervention restart or rechallenge after liver chemistry stopping criteria are met will be
 allowed in this study. If the participant meets liver chemistry stopping criteria, do not restart or
 rechallenge the participant with study intervention unless:
@@ -1028,7 +1028,7 @@ not
 granted
 , then the participant must permanently discontinue study intervention and may continue
 in the study for protocol-specified follow-up assessments.
-# 7.2 Participant Discontinuation/Withdrawal from the Study
+## 7.2 Participant Discontinuation/Withdrawal from the Study
 A participant may withdraw from the study at any time at the participant’s own request for
 any reason (or without providing any reason) without any negative consequences.
 •
@@ -1047,7 +1047,7 @@ retain and continue to use any data collected before such a withdrawal of consen
 If a participant withdraws from the study, the participant may request destruction of any
 samples taken and not tested, and the investigator must document this in the site study
 records.
-# 7.3 Lost to Follow up
+## 7.3 Lost to Follow up
 A participant will be considered lost to follow-up if the participant repeatedly fails to return for
 scheduled visits and is unable to be contacted by the study site.
 The following actions must be taken if a participant fails to return to the clinic for a required study
@@ -1098,7 +1098,7 @@ requirements.
 Safety, laboratory, or analyte results that could unblind the study will not be reported to
 investigative sites or other blinded personnel until the study has been unblinded.
 Planned timepoints for all assessments will be provided in the SoA.
-# 8.1 Administrative [and General/Baseline] Procedures
+## 8.1 Administrative [and General/Baseline] Procedures
 At screening, baseline characteristics will be recorded, including hypertension, hyperlipidemia,
 diabetes,  and  coronary  artery  disease.  Based  on  historical  data  from  similar  trials  (e.g.,
 ADVANCE-3), the expected prevalence of these comorbidities is approximately 46% for hyper
@@ -1106,7 +1106,7 @@ ADVANCE-3), the expected prevalence of these comorbidities is approximately 46% 
 tension, 10% for hyperlipidemia, 9% for diabetes, and 8% for coronary artery disease.
 For context, this trial will exclude patients with basal cell or squamous cell skin cancers, primary
 brain tumors, known brain metastases, or acute leukemia.
-# 8.2 [Efficacy and/or Immunogenicity] Assessments
+## 8.2 [Efficacy and/or Immunogenicity] Assessments
 Efficacy will be assessed over the 6-month treatment period. Assessments will specifically
 monitor for recurrent VTE, major bleeding, clinically relevant non-major bleeding, and all-cause
 deaths.
@@ -1125,7 +1125,7 @@ Thromboembolism (VTE), which will be a composite endpoint comprising:
 Secondary efficacy outcomes will include the individual components of the primary efficacy
 outcome, symptomatic recurrence of VTE, all-cause death, major cardiovascular events, and all
 venous thromboembolic events.
-# 8.3 Safety Assessments
+## 8.3 Safety Assessments
 Safety endpoints will be monitored throughout the 6-month treatment period. The main safety
 endpoint and potential dose-limiting toxicity will be major bleeding. All bleeding criteria will
 include surgical site bleeding.
@@ -1207,8 +1207,8 @@ ation of the study intervention. Families and caregivers should be alerted to mo
 for unusual changes in behavior and report such symptoms immediately to the study investigat
 ‐
 or.
-# 8.4 Adverse Events (AEs) Serious Adverse Events (SAEs),
-# and Other Safety Reporting
+## 8.4 Adverse Events (AEs) Serious Adverse Events (SAEs),
+## and Other Safety Reporting
 The definitions of adverse events (AEs) and serious adverse events (SAEs) can be found in
 Appendix 3. Adverse events will be monitored with a particular focus on bleeding and clotting
 events. Common adverse reactions expected will include haemorrhage, contusion, epistaxis,
@@ -1325,53 +1325,53 @@ a particular focus on whether the incidence is higher in patients with gastroint
 genitourinary (GU) cancer.
 ## 8.4.9 Medical Device Deficiencies
 Medical devices will not be provided for use in this study. This section is not applicable.
-8.4.9.1 Time Period for Detecting Medical Device Deficiencies
+## 8.4.9.1 Time Period for Detecting Medical Device Deficiencies
 Not applicable.
-8.4.9.2 Follow-up of Medical Device Deficiencies
+## 8.4.9.2 Follow-up of Medical Device Deficiencies
 Not applicable.
-8.4.9.3 Prompt Reporting of Device Deficiencies to the Sponsor
+## 8.4.9.3 Prompt Reporting of Device Deficiencies to the Sponsor
 Not applicable.
-8.4.9.4 Regulatory Reporting Requirements for Device Deficiencies
+## 8.4.9.4 Regulatory Reporting Requirements for Device Deficiencies
 Not applicable.
-# 8.5 Pharmacokinetics
+## 8.5 Pharmacokinetics
 In patients with chronic renal insufficiency, the mean terminal half-life of anti-Factor Xa activity
 following a single intravenous dose of 5,000 IU dalteparin was 5.7 ± 2.0 hours, which is consid
 ‐
 erably longer than in healthy volunteers, suggesting greater accumulation can be expected.
-# 8.6 Pharmacodynamics
+## 8.6 Pharmacodynamics
 While standard clotting tests will be affected as expected by the drug’s mechanism of action,
 these changes will not be recommended for assessing its pharmacodynamic effects. Apixaban
 prolongs clotting tests such as prothrombin time (PT), INR, and activated partial thromboplastin
 time (aPTT), but these are subject to a high degree of variability and will not be recommended
 for routine assessment of the pharmacodynamic effect. The thrombin generation assay may be
 used to measure the reduction in endogenous thrombin potential.
-# 8.7 Genetics
+## 8.7 Genetics
 A blood or saliva sample for DNA isolation will be collected from participants who have consen
 ‐
 ted to participate in the genetic analysis component of the study. Participation will be optional.
 Participants who do not wish to participate in the genetic research may still participate in the
 main study. In the event of DNA extraction failure, a replacement genetic sample may be
 requested from the participant.
-# 8.8 Biomarkers
+## 8.8 Biomarkers
 Samples will be collected to achieve protocol-specific objectives. Details on sample types,
 collection schedules, and handling will be provided in the laboratory manual. With participant
 consent, samples may be stored for a specified number of years after the end of the study for
 further research to contribute to the understanding of the disease, related conditions, or the
 development of new treatments.
-# 8.9 Immunogenicity Assessments
+## 8.9 Immunogenicity Assessments
 Antibodies to the study intervention will be evaluated in plasma/serum samples collected from all
 participants according to the SoA, including those who discontinue. Samples will be screened for
 binding antibodies, and the titer of confirmed positive samples will be reported. The detection
 and characterization of antibodies will be performed using a validated assay method.
-# 8.10 [Health Economics OR Medical Resource Utilization and
-# Health Economics]
+## 8.10 [Health Economics OR Medical Resource Utilization and
+## Health Economics]
 For all participants throughout the study, the investigator and study site personnel will collect
 data  about  health  care  resource  utilization  associated  with  medical  encounters.  The  data
 collected will include the reasons and duration of hospitalizations and emergency room visits,
 and will exclude procedures, tests, and encounters mandated by the protocol. Quality of Life
 (QoL) will be assessed according to the Anti-Clot Treatment Scale (ACTS).
 # 9. Statistical Considerations
-# 9.1 General Considerations
+## 9.1 General Considerations
 ## 9.1.1 Decision Criteria/Statistical Hypotheses
 The primary objective will be to assess the non-inferiority of oral apixaban compared to subcu
 ‐
@@ -1405,7 +1405,7 @@ interpretation of the results.
 ## 9.1.4 Handling of Missing Data
 Procedures and statistical methods for managing and imputing missing data will be prespecified
 to minimize bias in the analyses.
-# 9.2 Analysis Sets
+## 9.2 Analysis Sets
 For the purposes of analysis, the following analysis sets will be defined:
 -
 Full Analysis Set (FAS):
@@ -1428,9 +1428,9 @@ conditions considered a significant risk factor for major bleeding, such as rece
 injury, recent brain, spinal or ophthalmic surgery, or recent intracranial haemorrhage, will be ex
 ‐
 cluded.
-# 9.3 Analyses Supporting Primary Objective(s)
+## 9.3 Analyses Supporting Primary Objective(s)
 ## 9.3.1 Primary Endpoint(s)/Estimand(s)
-9.3.1.1 Definition of endpoint(s)
+## 9.3.1.1 Definition of endpoint(s)
 Primary Efficacy Endpoint:
 The primary efficacy outcome will be the incidence of the first event of the composite of
 objectively confirmed recurrent Venous Thromboembolism (VTE) or VTE-related death occurring
@@ -1450,17 +1450,17 @@ an acute, clinically overt bleeding event associated with one or more of the fol
 articular, intramuscular with compartment syndrome, or retroperitoneal).
 - Bleeding that is fatal.
 - Bleeding that necessitates acute surgical intervention.
-9.3.1.2 Main Analytical Approach
+## 9.3.1.2 Main Analytical Approach
 The trial will be designed to test for non-inferiority. The primary statistical analysis for the efficacy
 endpoint, which is the time to the first event of the composite of recurrent VTE, will be a time-to-
 event analysis. A 95% Confidence Interval (CI) for the hazard ratio will be calculated to assess
 non-inferiority. This approach is supported by findings from similar trials in related indications.
-9.3.1.3 Sensitivity Analyses
+## 9.3.1.3 Sensitivity Analyses
 Sensitivity analyses will be conducted to assess the robustness of the primary endpoint results
 under different assumptions and analytical approaches.
-9.3.1.4 Supplementary Analyses
+## 9.3.1.4 Supplementary Analyses
 Additional supplementary analyses may be performed to further support the primary objectives.
-# 9.4 Analyses Supporting Secondary Objective(s)
+## 9.4 Analyses Supporting Secondary Objective(s)
 ## 9.4.1 Analyses Supporting Secondary Objective [label]
 Statistical analyses will be performed for all secondary endpoints.
 Secondary Safety Outcomes:
@@ -1491,8 +1491,8 @@ Quality of Life (QoL):
 Subgroup Analyses:
 - Analyses will be conducted on patient subgroups defined by cancer type, cancer treatment,
 and whether the initial VTE was incidental versus symptomatic.
-# 9.5 Analyses Supporting Tertiary/Exploratory/Other
-# Objective(s)
+## 9.5 Analyses Supporting Tertiary/Exploratory/Other
+## Objective(s)
 Exploratory analyses will be conducted to further investigate treatment effects. A sub-analysis
 will assess the incidence of bleeding events (Major Bleeding and CRNMB) according to cancer
 site, including gastrointestinal, genitourinary, lung, breast, gynaecological, and haematological
@@ -1504,7 +1504,7 @@ groups.
 Additionally, analyses will be conducted combining patients across treatment arms to identify
 patient characteristics associated with a higher overall risk of VTE recurrence or major bleeding,
 recognizing that patients with active cancer are at high risk for both.
-# 9.6 Other Safety Analyses
+## 9.6 Other Safety Analyses
 A comprehensive safety analysis will be performed, comparing rates of bleeding events between
 the apixaban and dalteparin arms. The main safety endpoint and potential dose-limiting toxicity
 for this trial will be major bleeding. Safety endpoints monitored throughout the study will include
@@ -1516,7 +1516,7 @@ Context from previous studies, such as the AMPLIFY VTE treatment study, will inf
 assessment. In that study, major bleeding occurred in 0.6% of apixaban patients versus 1.8% of
 enoxaparin/warfarin patients, and the composite of major and CRNM bleeding occurred in 4.3%
 versus 9.7%, respectively.
-# 9.7 Other Analyses
+## 9.7 Other Analyses
 ## 9.7.1 Other variables and/or parameters
 Additional parameters will be analyzed as specified.
 ## 9.7.2 Subgroup analyses
@@ -1531,7 +1531,7 @@ bleeding compared to patients with symptomatic VTE.
 Previous large-scale studies have shown the efficacy of apixaban to be generally consistent
 across subgroups, including age, gender, body mass index (BMI), and renal function. This study
 will further explore these relationships within the cancer patient population.
-# 9.8 Interim Analyses
+## 9.8 Interim Analyses
 An independent Data Monitoring Committee (IDMC) will be established to evaluate interim data.
 The timing of interim analyses will be based on event-based triggers. The analyses will be
 conducted using a group sequential design with an alpha spending approach to maintain the
@@ -1540,7 +1540,7 @@ overall type I error rate. Conditional power calculations may be performed to as
 ility of study success, and the study may be stopped for futility if this power is low. All procedures
 will be conducted in a manner that maintains the integrity of the study, with strict blinding
 protocols for all personnel involved in the interim analysis.
-# 9.9 Sample Size Determination
+## 9.9 Sample Size Determination
 A total of approximately 1,155 to 1,170 patients will be enrolled in the study. The randomised
 cohort is planned to include approximately 671 patients. The sample size calculation will be
 based on the primary efficacy estimand and will provide sufficient statistical power to test the
@@ -1550,8 +1550,8 @@ expected event rates informed by previous large-scale trials, will be detailed.
 For context, similar large-scale trials such as the AMPLIFY study randomized 5,395 patients.
 # Supporting Documentation and Operational
 # Considerations
-# 10.1 Appendix 1: Regulatory, Ethical, and Study Oversight
-# Considerations
+## 10.1 Appendix 1: Regulatory, Ethical, and Study Oversight
+## Considerations
 ## 10.1.1 Regulatory and Ethical Considerations
 This study will be conducted in accordance with the protocol and with the following:
 Consensus ethical principles derived from international guidelines including the Declaration
@@ -1696,10 +1696,10 @@ that the safety and rights of participants are being protected; and that the stu
 conducted in accordance with the currently approved protocol and any other study
 agreements, ICH GCP, and all applicable regulatory requirements.
 ## 10.1.10 Study and Site Start and Closure
-10.1.10.1 First Act of Recruitment
+## 10.1.10.1 First Act of Recruitment
 The study start date will be the date on which the clinical study will be open for recruitment of
 participants. The first act of recruitment will be defined in the protocol.
-10.1.10.2 Study/Site Termination
+## 10.1.10.2 Study/Site Termination
 The sponsor or designee reserves the right to close the study site or terminate the study at any
 time. Study sites will be closed upon study completion. The investigator may initiate study-site
 closure at any time, provided there is reasonable cause and sufficient notice is given. Reasons
@@ -1724,7 +1724,7 @@ accordance with standard editorial and ethical practice, the sponsor will genera
 publication of multicenter studies only in their entirety and not as individual site data.
 Authorship will be determined by mutual agreement and in line with International Committee
 of Medical Journal Editors (ICMJE) authorship requirements.
-# 10.2 Appendix 2: Clinical Laboratory Tests
+## 10.2 Appendix 2: Clinical Laboratory Tests
 The tests detailed in the table below will be performed by a central or local laboratory as
 specified. Local laboratory results may be used if central results are not available in a timely
 manner for study intervention or response evaluation. Additional tests may be performed as
@@ -1778,17 +1778,17 @@ may be useful in exceptional situations like overdose or emergency surgery.
 In studies with dalteparin in patients with end-stage renal failure, no evidence of
 bioaccumulation of anti-Factor Xa serum levels was observed.
 Investigators must document their review of each laboratory safety report.
-# 10.3 Appendix 3: AEs and SAEs: Definitions and Procedures
-# for Recording, Evaluating, Follow-up, and Reporting
+## 10.3 Appendix 3: AEs and SAEs: Definitions and Procedures
+## for Recording, Evaluating, Follow-up, and Reporting
 ## 10.3.1 Definition of AE
-10.3.1.1 AE Definition
+## 10.3.1.1 AE Definition
 An AE will be any untoward medical occurrence in a clinical study participant, temporally
 associated with the use of study intervention, whether or not considered related to the study
 intervention.
 NOTE: An AE can therefore be any unfavorable and unintended sign (including an abnormal
 laboratory finding), symptom, or disease (new or exacerbated) temporally associated with
 the use of study intervention.
-10.3.1.2 Definition of Unsolicited and Solicited AE
+## 10.3.1.2 Definition of Unsolicited and Solicited AE
 An unsolicited AE will be an AE that was not solicited using a participant diary and that is
 communicated by a participant or their representative.
 •
@@ -1806,7 +1806,7 @@ communicated by a participant or their representative.
 •
 Solicited AEs will be predefined local and systemic events for which the participant is
 specifically questioned.
-10.3.1.3 Events Meeting the AE Definition
+## 10.3.1.3 Events Meeting the AE Definition
 Any abnormal laboratory test results or other safety assessments considered clinically
 significant by the investigator.
 Exacerbation of a chronic or intermittent pre-existing condition.
@@ -1816,7 +1816,7 @@ Common adverse reactions expected with the study agents will include haemorrhage
 contusion, epistaxis, haematoma, anaemia, thrombocytopenia, and nausea. The use of
 apixaban may be associated with an increased risk of occult or overt bleeding from any
 tissue or organ, which may result in posthaemorrhagic anaemia.
-10.3.1.4 Events not Meeting the AE Definition
+## 10.3.1.4 Events not Meeting the AE Definition
 Abnormal findings associated with the underlying disease, unless more severe than
 expected.
 The disease being studied or its expected progression, unless more severe than expected.
@@ -1857,12 +1857,12 @@ comes.
 •
 •
 ## 10.3.3 Recording and Follow-Up of AE and/or SAE
-10.3.3.1 AE and SAE Recording
+## 10.3.3.1 AE and SAE Recording
 When an AE/SAE occurs, the investigator must review all related documentation and record
 all relevant information. The investigator will attempt to establish a diagnosis of the event.
 Adverse events will be monitored throughout the duration of the study, with a particular
 focus on bleeding and clotting events.
-10.3.3.2 Assessment of Intensity
+## 10.3.3.2 Assessment of Intensity
 The investigator will assess the intensity of each AE and SAE as:
 -
 Mild:
@@ -1877,20 +1877,20 @@ Severe:
 Interrupts daily activities, significantly affects clinical status, or requires intensive inter
 ‐
 vention.
-10.3.3.3 Assessment of Causality
+## 10.3.3.3 Assessment of Causality
 The investigator must assess the relationship between the study intervention and each AE/
 SAE, considering alternative causes and the temporal relationship. A
 reasonable possibility
 of a relationship will suggest a causal link. The investigator will consult the IB and/or product
 information. This assessment will be crucial for regulatory reporting.
-10.3.3.4 Follow-up of AEs and SAEs
+## 10.3.3.4 Follow-up of AEs and SAEs
 The investigator will be obligated to perform supplemental evaluations as medically
 indicated to elucidate the nature and/or causality of the AE or SAE. If a participant dies, a
 copy of any postmortem findings will be provided to the sponsor. New or updated
 information will be recorded, and any updated SAE data will be submitted to the sponsor
 within 24 hours of receipt.
 ## 10.3.4 Reporting of SAEs
-10.3.4.1 SAE Reporting to the Sponsor via an Electronic Data Collection Tool
+## 10.3.4.1 SAE Reporting to the Sponsor via an Electronic Data Collection Tool
 The primary mechanism for reporting an SAE to the sponsor will be the electronic data
 collection tool. If the electronic system is unavailable, the site will use the paper SAE data
 collection tool to report the event within 24 hours. The site will enter the SAE data into the
@@ -1899,12 +1899,12 @@ electronic system as soon as it becomes available.
 •
 •
 •
-10.3.4.2 SAE Reporting to the Sponsor via Paper Data Collection Tool
+## 10.3.4.2 SAE Reporting to the Sponsor via Paper Data Collection Tool
 In the event the electronic system is unavailable, facsimile transmission of the paper SAE
 data collection tool will be the preferred method. Notification by telephone will be acceptable
 in rare circumstances but will not replace the need to complete and sign the SAE data
 collection tool within the designated reporting timeframes.
-# 10.4 Appendix 4: Contraceptive and Barrier Guidance
+## 10.4 Appendix 4: Contraceptive and Barrier Guidance
 ## 10.4.1 Definitions
 Women of childbearing potential (WOCBP) will be defined as those who are biologically capable
 of becoming pregnant.
@@ -1921,7 +1921,7 @@ preferable to avoid its use during pregnancy. It is unknown if apixaban or its m
 excreted in human milk; therefore, a decision must be made whether to discontinue
 breastfeeding or to discontinue/abstain from the study drug.
 Animal studies with apixaban have shown no effect on fertility.
-# 10.5 Appendix 5: Genetics
+## 10.5 Appendix 5: Genetics
 Where local regulations and IRB/IEC allow, a sample will be collected for DNA analysis from
 consenting participants. DNA samples will be used for research related to the study intervention,
 the indication, and related diseases. This may include pharmacogenomic analysis, candidate
@@ -1934,8 +1934,8 @@ protect confidentiality and will be retained for a specified period as per local
 •
 •
 •
-# 10.6 Appendix 6: Liver Safety: Suggestions and Guidelines
-# for Liver Events
+## 10.6 Appendix 6: Liver Safety: Suggestions and Guidelines
+## for Liver Events
 Patients will be excluded from the study if they have acute hepatitis, chronic active hepatitis,
 or liver cirrhosis.
 Patients will also be excluded if their alanine aminotransferase (ALT) level is ≥3 times the
@@ -1952,12 +1952,12 @@ Liver function testing will be performed prior to initiating apixaban.
 The definitions and procedures detailed in this appendix will be in accordance with ISO
 14155 and the European Medical Device Regulation (MDR) 2017/745 for clinical device
 research (if applicable).
-# 10.7.1 Definition of Medical Device AE and ADE
+## 10.7.1 Definition of Medical Device AE and ADE
 A medical device AE will be any untoward medical occurrence in a clinical study participant,
 user, or other person, temporally associated with the use of a study device.
 An adverse device effect (ADE) will be an AE related to the use of an investigational
 medical device, including events from use error or malfunction.
-# 10.7.2 Definition of Medical Device SAE, SADE and USADE
+## 10.7.2 Definition of Medical Device SAE, SADE and USADE
 A Medical Device SAE will be an AE that led to death, serious deterioration in health (life-
 threatening illness, permanent impairment, hospitalization), or fetal distress/death/
 congenital abnormality.
@@ -1974,12 +1974,12 @@ SAE, or a device deficiency that might have led to an SAE.
 •
 An USADE will be an SADE that, by its nature, incidence, severity, or outcome, has not
 been identified in the current version of the risk analysis report.
-# 10.7.3 Definition of Device Deficiency
+## 10.7.3 Definition of Device Deficiency
 A device deficiency will be an inadequacy of a medical device with respect to its identity,
 quality, durability, reliability, safety, or performance. This will include malfunctions, use
 errors, and inadequate information from the manufacturer.
-# 10.7.4 Recording and Follow-Up of Medical Device AE and/or
-# SAE and Device Deficiencies
+## 10.7.4 Recording and Follow-Up of Medical Device AE and/or
+## SAE and Device Deficiencies
 ## 10.7.4.1 Medical Device AE, SAE, and Device Deficiency Recording
 The investigator will record all relevant AE/SAE/device deficiency information in the
 participant’s medical records and on the appropriate form. For device deficiencies, any
@@ -1993,7 +1993,7 @@ using clinical judgment and consulting the investigator’s brochure or instruct
 The investigator will perform supplemental evaluations as needed to elucidate the nature
 and causality of the event. Updated information will be recorded and submitted to the
 sponsor promptly.
-# 10.7.5 Reporting of Medical Device SAEs
+## 10.7.5 Reporting of Medical Device SAEs
 SAEs will be reported to the sponsor within 24 hours, primarily via an electronic data
 collection tool, with a paper-based system as a backup.
 •
@@ -2003,7 +2003,7 @@ collection tool, with a paper-based system as a backup.
 •
 •
 •
-# 10.7.6 Reporting of SADEs
+## 10.7.6 Reporting of SADEs
 Any device deficiency associated with an SAE must be reported to the sponsor within 24
 hours. The sponsor will review these events and report them to regulatory authorities and
 IRBs/IECs as required.

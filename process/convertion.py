@@ -9,6 +9,7 @@ output_dir = "chapters_md"
 os.makedirs(output_dir, exist_ok=True)
 
 chapter_pattern = re.compile(r'^# \d+\.\s+.+')
+subchapter_pattern = re.compile(r'^## \d+\.\d+\s+.+')
 sanitize_pattern = re.compile(r'[\\/*?:"<>|]')
 
 def sanitize_filename(name):
@@ -84,9 +85,9 @@ for page in doc:
                     text = span["text"].strip()
                     if not text:
                         continue
-                    if span["size"] > 15:
+                    if span["size"] > 16:
                         full_markdown_lines.append(f"# {text}")
-                    elif span["size"] > 12:
+                    elif span["size"] > 11:
                         full_markdown_lines.append(f"## {text}")
                     else:
                         clean = clean_line(text)
@@ -121,42 +122,61 @@ with pdfplumber.open(pdf_path) as pdf:
                 break
 
 # --- Step 3: Salva capitoli separati con tabelle compatte ---
-current_chapter_title = None
-current_chapter_text = []
+current_title = None
+current_text = []
 chapter_counter = 1
+subchapter_counter = 1
 
 for line in full_markdown_lines:
     line_stripped = line.strip()
     if not line_stripped:
         continue
     if chapter_pattern.match(line_stripped):
-        if current_chapter_title:
-            filename = f"{chapter_counter:03d}_{sanitize_filename(current_chapter_title)}.md"
+        if current_title:
+            filename = f"{chapter_counter:03d}_{sanitize_filename(current_title)}.md"
             filepath = os.path.join(output_dir, filename)
             with open(filepath, "w", encoding="utf-8") as f_out:
-                f_out.write(f"{current_chapter_title}\n\n")
-                f_out.write("\n".join(current_chapter_text))
-                tables = chapter_tables.get(current_chapter_title, [])
+                f_out.write(f"{current_title}\n\n")
+                f_out.write("\n".join(current_text))
+                tables = chapter_tables.get(current_title, [])
                 for idx, table in enumerate(tables):
                     f_out.write(f"\n\n=== TABLE {idx+1} ===\n")
                     f_out.write(table_to_markdown_compact(table))
-            chapter_counter += 1
-            current_chapter_text = []
+        
+        current_title = line_stripped
+        current_text = []
+        subchapter_counter = 1
+        chapter_counter += 1
+        
+    elif subchapter_pattern.match(line_stripped):
+        if current_title:  # Salva sottocapitolo precedente
+            filename = f"{chapter_counter-1:03d}_{subchapter_counter:02d}_{sanitize_filename(current_title)}.md"
+            filepath = os.path.join(output_dir, filename)
+            with open(filepath, "w", encoding="utf-8") as f_out:
+                f_out.write(f"{current_title}\n\n")
+                f_out.write("\n".join(current_text))
+                tables = chapter_tables.get(current_title, [])
+                for idx, table in enumerate(tables):
+                    f_out.write(f"\n\n=== TABLE {idx+1} ===\n")
+                    f_out.write(table_to_markdown_compact(table))
+        # reset
+        current_title = line_stripped
+        current_text = []
+        subchapter_counter += 1
 
-        current_chapter_title = line_stripped
     else:
         clean = clean_line(line_stripped)
         if clean:
-            current_chapter_text.append(clean)
+            current_text.append(clean)
 
-# Salva ultimo capitolo
-if current_chapter_title:
-    filename = f"{chapter_counter:03d}_{sanitize_filename(current_chapter_title)}.md"
+# --- Salva ultimo capitolo/sottocapitolo ---
+if current_title:
+    filename = f"{chapter_counter:03d}_{sanitize_filename(current_title)}.md"
     filepath = os.path.join(output_dir, filename)
     with open(filepath, "w", encoding="utf-8") as f_out:
-        f_out.write(f"{current_chapter_title}\n\n")
-        f_out.write("\n".join(current_chapter_text))
-        tables = chapter_tables.get(current_chapter_title, [])
+        f_out.write(f"{current_title}\n\n")
+        f_out.write("\n".join(current_text))
+        tables = chapter_tables.get(current_title, [])
         for idx, table in enumerate(tables):
             f_out.write(f"\n\n=== TABLE {idx+1} ===\n")
             f_out.write(table_to_markdown_compact(table))

@@ -29,7 +29,7 @@ class SeleneEvaluator(Evaluator):
                           'atla_default_relevance'.
                           Defaults to 'atla_default_logical_coherence'.
         """
-        self.atla = Atla()
+        self.atla = Atla(api_key="pylf_v1_eu_LqkjqcVJFjQQjy3bMxKRrDQnnkgxpkVx8k4kPt0lt8FD")
         self.metric = metric
 
     async def evaluate(self, output_prompt, input_prompt=None, context=None, **kwargs):
