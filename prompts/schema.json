@@ -1,5 +1,5 @@
 {
-  "title": "Clinical Study JSON Schema",
+  "title": "ClinicalStudyJSONSchema",
   "type": "object",
   "properties": {
     "sponsor_name": { "type": "string" },

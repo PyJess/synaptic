@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Fantastic work! The faithfulness score is 1.00, indicating that the 'actual output' aligns perfectly with the 'retrieval context'. No contradictions are present, showcasing a strong adherence to the original material. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.8571428571428571,
+    "answer_relevancy-DeepEval-reason": "The score is 0.86 because, despite an overall strong alignment of the content with the input regarding immunogenicity assessments, a specific statement deviated by focusing on procedural data collection instead of the core topic. This minor distraction slightly detracted from a higher score. However, the majority of the output maintained relevance, effectively addressing the main aspects needed."
+}

@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.6923076923076923,
+    "faithfulness-DeepEval-reason": "The score is 0.69 because the actual output misrepresents several key aspects of the study as detailed in the contradictions. The study design is inaccurately described, lacking awareness of PROBE specifications, with no preference cohorts mentioned, a transition to warfarin is incorrectly implied in one arm, and the sample sizes are overstated, all diverging from the retrieval context.",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.7272727272727273,
+    "answer_relevancy-DeepEval-reason": "The score is 0.73 because while the response contains relevant and informative content aligning with the study's aim and design, some elements included, like patient numbers and discussions on transitioning to another drug, were not central to the given instructions. This slightly detracts from the score, despite the majority of pertinent details about the study intervention, control methods, and population characteristics being effectively addressed."
+}

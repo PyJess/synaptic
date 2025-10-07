@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present, indicating a perfect alignment between the actual output and the retrieval context. Great job on maintaining such a high level of accuracy and consistency!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6666666666666666,
+    "answer_relevancy-DeepEval-reason": "The score is 0.67 because the output captures several relevant elements from the input, including sampling procedures and details on drugs, yet strays with statements that don't align closely with pharmacodynamics, diluting focus and relevance. However, it retains a moderate score for addressing core aspects of the intended study structure and medicinal context."
+}

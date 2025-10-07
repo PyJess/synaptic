@@ -1,0 +1,34 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "",
+    "tested_imp": "apixaban",
+    "comparative_drug": "",
+    "study_type": "",
+    "interventional_study_phase": "",
+    "study_design": "",
+    "aim_of_study": "",
+    "target_disease": "",
+    "type_of_randomization": "",
+    "randomization_stratification": [],
+    "apixaban_dosing": "",
+    "dalteparin_dosing": "",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [
+        "final follow-up visit at 7 months",
+        "primary monitoring period: 6-month treatment period"
+    ],
+    "primary_efficacy_outcome": "",
+    "secondary_efficacy_outcomes": [
+        "Assessment of any major cardiovascular event (fatal or non-fatal, including acute myocardial infarction or ischemic stroke)",
+        "All-cause death"
+    ],
+    "primary_safety_outcome": "Incidence of major bleeding, as defined by the International Society on Thrombosis and Haemostasis (ISTH) guidelines. All bleeding criteria will include surgical site bleeding.",
+    "secondary_safety_outcomes": [
+        "Incidence of clinically relevant non-major bleeding (CRNMB)",
+        "Incidence of major bleeding and CRNMB in both treatment arms, with focus on GI and GU cancer patients"
+    ],
+    "maximum_sample_size_per_arm": 0,
+    "recommended_inclusion_criteria": [],
+    "recommended_exclusion_criteria": []
+}

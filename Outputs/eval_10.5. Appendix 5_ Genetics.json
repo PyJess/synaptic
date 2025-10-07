@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions detected, indicating the `actual output` aligns perfectly with the retrieval context. Keep up the accurate work!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.0,
+    "answer_relevancy-DeepEval-reason": "The score is 0.00 because the output contained several statements regarding DNA sample collection and genetic analysis that were not relevant to the specific study protocol details provided in the input. These irrelevant remarks significantly detracted from addressing the study's focus on the comparison of Apixaban and Dalteparin for VTE in cancer patients, resulting in a lower relevancy score."
+}

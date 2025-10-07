@@ -1,0 +1,37 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "",
+    "tested_imp": "",
+    "comparative_drug": "",
+    "study_type": "",
+    "interventional_study_phase": "",
+    "study_design": "",
+    "aim_of_study": "",
+    "target_disease": "",
+    "type_of_randomization": "",
+    "randomization_stratification": [],
+    "apixaban_dosing": "",
+    "dalteparin_dosing": "",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [],
+    "primary_efficacy_outcome": "",
+    "secondary_efficacy_outcomes": [
+        "The individual components of the primary efficacy outcome",
+        "Symptomatic recurrence of VTE",
+        "All-cause death",
+        "The composite of the primary efficacy outcome plus major bleeding",
+        "Any major cardiovascular event",
+        "All venous thromboembolic events",
+        "Quality of Life (QoL) assessed by the Anti-Clot Treatment Scale (ACTS)"
+    ],
+    "primary_safety_outcome": "",
+    "secondary_safety_outcomes": [
+        "Clinically Relevant Non-Major Bleeding (CRNMB)",
+        "Composite of major bleeding and CRNMB",
+        "Permanent early discontinuation of the study drug due to safety reasons"
+    ],
+    "maximum_sample_size_per_arm": 0,
+    "recommended_inclusion_criteria": [],
+    "recommended_exclusion_criteria": []
+}

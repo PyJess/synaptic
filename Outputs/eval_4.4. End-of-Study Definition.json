@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Fantastic job! The faithfulness score of 1.00 is well-deserved as there are no contradictions in the actual output, showcasing a perfect alignment with the retrieval context. Keep up this great consistency!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.23076923076923078,
+    "answer_relevancy-DeepEval-reason": "The score is 0.23 because the majority of the output consisted of statements unrelated to the query. Most of the output was focused on treatment details, patient eligibility, and safety outcomes rather than defining or distinguishing the end-of-study or study completion. However, the initial parts of the input partially addressed the instruction by defining study completion and participant completion, providing a basic grounding for the intended differentiation."
+}

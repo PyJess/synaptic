@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.9285714285714286,
+    "faithfulness-DeepEval-reason": "The score is 0.93 because while the claim only generically excludes patients with basal cell or squamous cell skin cancers, the retrieval context specifically mentions the exclusion of basal-cell or squamous-cell carcinoma of the skin and details additional exclusions not reflected in the claim, such as primary or metastatic cerebral cancers, known brain metastases, and acute leukemia.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 1.0,
+    "answer_relevancy-DeepEval-reason": "The score is 1.00 because the output was completely relevant, concise, and directly aligned with the input instructions. There were no extraneous or irrelevant statements, making the information provided precise and to the point. Great job adhering to the requirements!"
+}

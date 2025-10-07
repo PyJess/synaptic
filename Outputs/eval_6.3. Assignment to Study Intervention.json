@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Outstanding! The faithfulness score is 1.00 because there are no contradictions between the 'actual output' and the 'retrieval context'. Keep up the excellent alignment!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.5714285714285714,
+    "answer_relevancy-DeepEval-reason": "The score is 0.57 because while several key aspects of participant assignment and randomization in the study protocol were addressed, some statements strayed into dosing specifics and treatment continuation which were not directly relevant to the core focus\u2014participant assignment methods. Despite this, the output maintained a solid baseline with pertinent procedural descriptions related to randomization and stratification."
+}

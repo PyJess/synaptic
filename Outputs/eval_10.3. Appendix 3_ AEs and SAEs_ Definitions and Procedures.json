@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Fantastic work! The faithfulness score of 1.00 indicates that there are no contradictions between the 'actual output' and the 'retrieval context.' Keep up the great alignment!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.4482758620689655,
+    "answer_relevancy-DeepEval-reason": "The score is 0.45 because while the output provides relevant procedural details about study protocols, it includes numerous procedural explanations and general statements unrelated to the primary safety and efficacy outcomes of the study, which detracts from the focus on study objectives. However, it maintains partial relevancy by covering aspects such as drug details and structured question-response formats, justifying its current score."
+}

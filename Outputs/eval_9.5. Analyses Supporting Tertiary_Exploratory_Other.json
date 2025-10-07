@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output aligns perfectly with the retrieval context. Well done!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.8,
+    "answer_relevancy-DeepEval-reason": "The score is 0.80 because the majority of the output accurately and thoroughly addresses the key elements of the study protocol input, including details like study design, objectives, eligibility criteria, and treatment plans. However, the score isn't higher due to minor deviations with irrelevant points, such as discussing cancer resection status and combining treatment arms, which are not central to the study's primary focus."
+}

@@ -1,28 +1,28 @@
-prompt={"system": """You are an expert clinical trial protocol writer. 
-                            You will generate a fully structured section of a clinical trial protocol based on the sponsor-provided input data. 
-                            Always follow standard clinical trial protocol conventions, using formal, precise, and professional language.
-                            The sponsor provides mandatory inputs including:
+# prompt={"system": """You are an expert clinical trial protocol writer. 
+#                             You will generate a fully structured section of a clinical trial protocol based on the sponsor-provided input data. 
+#                             Always follow standard clinical trial protocol conventions, using formal, precise, and professional language.
+#                             The sponsor provides mandatory inputs including:
 
-                            Sponsor Name 
-                            Study Acronym 
-                            Investigational Medicinal Product (IMP) 
-                            Comparative Drug 
-                            Study Type (e.g., Interventional) and Phase 
-                            Study Design 
-                            Aim of the study
-                            Target Disease 
-                            Randomization details
-                            Drug administration details and dosages
-                            Scheduled patient visits
-                            Primary and secondary efficacy outcomes
-                            Primary and secondary safety outcomes
-                            Maximum sample size
-                            Recommended inclusion and exclusion criteria.
-                            Your task is to write the content for the "{chapter_title}" section of the protocol, ensuring it is comprehensive and adheres to regulatory standards.""",
-        "user": "Here you find all the infrormation you need to to write the {chapter_title} section of the protocol: {input_data}",
-        "retrieved": ""
+#                             Sponsor Name 
+#                             Study Acronym 
+#                             Investigational Medicinal Product (IMP) 
+#                             Comparative Drug 
+#                             Study Type (e.g., Interventional) and Phase 
+#                             Study Design 
+#                             Aim of the study
+#                             Target Disease 
+#                             Randomization details
+#                             Drug administration details and dosages
+#                             Scheduled patient visits
+#                             Primary and secondary efficacy outcomes
+#                             Primary and secondary safety outcomes
+#                             Maximum sample size
+#                             Recommended inclusion and exclusion criteria.
+#                             Your task is to write the content for the "{chapter_title}" section of the protocol, ensuring it is comprehensive and adheres to regulatory standards.""",
+#         "user": "Here you find all the infrormation you need to to write the {chapter_title} section of the protocol: {input_data}",
+#         "retrieved": ""
 
-}
+# }
 
 
 from Evaluator import Evaluator
@@ -69,10 +69,10 @@ class EvaluatorAgent():
         }
         self.choosen_metrics=["faithfulness-ragas",
                                 "faithfulness-deepeval",
-                                "faithfulness-selene",
+                                #"faithfulness-selene",
                                 "ans-rel-ragas",
                                 "ans-rel-deepeval",
-                                "ans-rel-selene"
+                                #"ans-rel-selene"
                                 ]
 
     async def evaluate(self, chapter_title:str, prompt:dict, output, input_data):
@@ -80,17 +80,18 @@ class EvaluatorAgent():
         final_warnings={}
         root= os.path.abspath(os.path.join(os.path.dirname(__file__), '..', "Outputs"))
         metric_coroutines=[]
-        input_prompt=prompt['system']+'\n\n'+prompt['user']
-        input_prompt= input_prompt.replace("{chapter_title}", chapter_title)
-        input_prompt= input_prompt.replace("{input_data}", input_data)
-        logger.debug(f"Input prompt: {input_prompt[:200]}...")
+        # input_prompt=prompt['system']+'\n\n'+prompt['user']
+        # input_prompt= input_prompt.replace("{chapter_title}", chapter_title)
+        # input_prompt= input_prompt.replace("{input_data}", input_data)
+        # logger.debug(f"Input prompt: {input_prompt[:200]}...")
         #Performs evaluation for provided metrics...
 
         task = [
                 self.metrics[metric].evaluate(
                     output,
-                    input_prompt,
-                    context=prompt.get('retrieved', "")
+                    prompt,
+                    #context=prompt.get('retrieved', "")
+                    context=input_data
                 )
             for metric in self.choosen_metrics]
             
@@ -115,32 +116,48 @@ async def a_invoke_model(gpt, msgs):
         return await gpt.ainvoke(msgs)
 
 
-async def evaluate_chapter(file_path, chapter_title, cleaned_title, evaluator, prompt, input_data):
-    print(f"Evaluating chapter: {chapter_title}")
+async def evaluate_chapter(file_path, cleaned_title, evaluator, prompt, input_data):
+    print(f"Evaluating chapter: {cleaned_title}")
     try:
         async with aiofiles.open(file_path, "r", encoding="utf-8") as f:
             output = await f.read()
 
         scores, warnings = await evaluator.evaluate(
-            chapter_title=chapter_title,
+            chapter_title=cleaned_title,
             prompt=prompt,
             output=output,
             input_data=input_data
         )
 
-        print(f"\n=== SCORES ({chapter_title}) ===")
+        eval_prompts_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Outputs', 'Eval_prompts'))
+        safe_title = re.sub(r'[<>:"/\\|?*]', '_', cleaned_title)
+        os.makedirs(eval_prompts_root, exist_ok=True)
+        eval_file = os.path.join(eval_prompts_root, safe_title + ".json")
+
+        dic = {
+            "prompt": prompt,
+            "output": output,
+            "context": input_data
+        }
+
+        with open(eval_file, "w", encoding="utf-8") as f:
+            json.dump(dic, f, ensure_ascii=False, indent=4)
+             
+
+        print(f"\n=== SCORES ({cleaned_title}) ===")
         print(scores)
-        print(f"\n=== WARNINGS ({chapter_title}) ===")
+        print(f"\n=== WARNINGS ({cleaned_title}) ===")
         print(warnings)
 
-        with os.open(os.path.join(os.path.join(os.path.dirname(__file__), '..', "prompts", "system_prompt.txt"))) as f:
-                     system_prompt=f.read()
-        with os.open(os.path.join(os.path.join(os.path.dirname(__file__), '..', "prompts", "user_prompt.txt"))) as f:
+        # with os.open(os.path.join(os.path.join(os.path.dirname(__file__), '..', "prompts", "system_prompt.txt"))) as f:
+        #              system_prompt=f.read()
+
+        with open(os.path.join(os.path.join(os.path.dirname(__file__), '..', "prompts", "user_prompt.txt"))) as f:
                      user_prompt=f.read()
         
         
-        with os.open(os.path.join(os.path.join(os.path.dirname(__file__), '..', "prompts", "schema.json"))) as f:
-                     schema=json.dumps()
+        with open(os.path.join(os.path.join(os.path.dirname(__file__), '..', "prompts", "schema.json"))) as f:
+                     schema = json.load(f)
 
         
         print("Calling LLM...")
@@ -180,13 +197,14 @@ async def evaluate_chapter(file_path, chapter_title, cleaned_title, evaluator, p
                     exclusion_criteria"""}
                     , {"role": "user", "content": user_prompt_filled}]
     
-        response = a_invoke_model(gpt, messages)
+        response = await a_invoke_model(gpt, messages)
         # crare codice che prende output e ceerca le variabili, mi restituisce un json con nome capitolo + cìvariabile
-        async with aiofiles.open(os.path.join(file_path,f"{chapter_title}_variables.json"),'w',encoding='utf-8') as f:
+        output_path="C:\\Users\\x.hita\\OneDrive - Reply\\Workspace\\SYNAPTIC\\synaptic\\variables"
+        async with aiofiles.open(os.path.join(output_path,f"{cleaned_title}_variables.json"),'w',encoding='utf-8') as f:
             await f.write(json.dumps(response, indent=4))
 
     except Exception as e:
-        print(f"Error in {chapter_title}: {e}")
+        print(f"Error in {cleaned_title}: {e}")
 
 
 async def main():
@@ -221,15 +239,24 @@ async def main():
 
                 cleaned_title_list.append(cleaned_title)
 
+
     print(f"CLEANED_Title: {cleaned_title_list}")
-    sys.exit()
     for root, dirs, files in os.walk(chapters_dir):
         for file in files:
             if file != "full_output.md":
                 chapter_title, ext = os.path.splitext(file)
-                cleaned_title= chapter_title.lstrip("# ").lstrip("# ")
+                cleaned_title = re.sub(r'^\d+_\d+_', '', chapter_title)
+
+                # Remove leading hashes and spaces (# or ##)
+                cleaned_title = re.sub(r'^#+\s*', '', cleaned_title)
+                if "##" in cleaned_title:
+                      cleaned_title = cleaned_title.split('##', 1)[1].lstrip()
+                cleaned_title = re.sub(r'^(\d+\.\d+)(\s+)', r'\1.\2', cleaned_title)
+
                 file_path = os.path.join(root, file)
-                tasks.append(evaluate_chapter(file_path, chapter_title,cleaned_title, evaluator, prompt, input_data))
+                prompt=await estract_prompt(cleaned_title, cleaned_title_list)
+                prompt= prompt + input_data
+                tasks.append(evaluate_chapter(file_path, cleaned_title, evaluator, prompt, input_data))
         
 
     await asyncio.gather(*tasks)
@@ -260,7 +287,8 @@ async def estract_prompt(title, all_titles):
 
     # Extract lines from start_index to end_index
     extracted_lines = lines[start_index:end_index]
-    return "".join(extracted_lines).strip()
+    return "These are your instructions:".join(extracted_lines).strip() 
+
      
      
                  

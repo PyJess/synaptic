@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions, indicating a perfect alignment between the actual output and the retrieval context. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9285714285714286,
+    "answer_relevancy-DeepEval-reason": "The score is 0.93 because the answer closely aligns with the input instructions for adverse event reporting, displaying comprehensive adherence to guidelines. It includes crucial details like AE data collection methods, necessary follow-up procedures, and regulatory reporting obligations, ensuring a thorough understanding of the study requirements. The score isn't higher due to inclusion of statements about medical device deficiencies, which are not pertinent to the study's scope, as it doesn't involve medical devices."
+}

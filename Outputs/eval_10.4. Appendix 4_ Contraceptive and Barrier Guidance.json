@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because the actual output perfectly aligns with the retrieval context, with no contradictions observed. Well done for achieving total harmony between the sources!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.7,
+    "answer_relevancy-DeepEval-reason": "The score is 0.70 because the response provides relevant data regarding the study protocol but includes some extraneous details. Defining Women of Childbearing Potential (WOCBP), discussing breastfeeding, and referencing animal fertility studies do not contribute directly to the main goals outlined in the input, such as study structure, objectives, or drug efficacy."
+}

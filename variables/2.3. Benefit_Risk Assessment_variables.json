@@ -1,0 +1,32 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "",
+    "tested_imp": "apixaban",
+    "comparative_drug": "dalteparin",
+    "study_type": "",
+    "interventional_study_phase": "",
+    "study_design": "",
+    "aim_of_study": "To assess whether apixaban is non-inferior to dalteparin for the treatment of cancer-associated VTE, with a focus on benefit-risk profile regarding VTE recurrence and major bleeding.",
+    "target_disease": "cancer-associated venous thromboembolism (VTE)",
+    "type_of_randomization": "",
+    "randomization_stratification": [
+        "cancer localization (e.g., GI, genitourinary, gynecological, lung)"
+    ],
+    "apixaban_dosing": "",
+    "dalteparin_dosing": "",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [],
+    "primary_efficacy_outcome": "Incidence of recurrent VTE at 6 months.",
+    "secondary_efficacy_outcomes": [
+        "Rates of recurrent VTE in subgroups based on cancer type (gynecological, GI, genitourinary, lung)"
+    ],
+    "primary_safety_outcome": "Major bleeding.",
+    "secondary_safety_outcomes": [
+        "Composite of major and clinically relevant non-major (CRNM) bleeding",
+        "All bleeding events"
+    ],
+    "maximum_sample_size_per_arm": 0,
+    "recommended_inclusion_criteria": [],
+    "recommended_exclusion_criteria": []
+}

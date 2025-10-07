@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.8235294117647058,
+    "faithfulness-DeepEval-reason": "The score is 0.82 because the actual output made claims about VTE-related deaths and trial phases not fully aligned with the context details, which focused on recurrent VTE and only highlighted Phase IIIb. Furthermore, patient enrollment numbers were inflated without clear support, diverging from the documented limitations.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9743589743589743,
+    "answer_relevancy-DeepEval-reason": "The score is 0.97 because the actual output is highly relevant, providing an accurate summary aligned with the input instructions. The output captures the key aspects, scope, and specifications of the protocol, demonstrating consistency and adherence to details. Despite the minor irrelevance in one statement not directly referencing the protocol's specifics, the output's depth and precision maintain a near-perfect score."
+}

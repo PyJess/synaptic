@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Awesome job! The flawless faithfulness score of 1.00 indicates that the actual output perfectly aligns with the provided information. Keep up the fantastic work, and continue striving for accuracy!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6,
+    "answer_relevancy-DeepEval-reason": "The score is 0.60 because the output includes a detailed comparison of Apixaban and Dalteparin as used in the study, aligning well with the study protocol's focus. However, the presence of tangential comments about unrelated cancer types and adverse reactions not directly relevant to the study's primary safety and efficacy endpoints keeps the score from being higher."
+}

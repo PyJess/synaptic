@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions between the 'actual output' and the 'retrieval context'. This shows an impeccable alignment and accuracy with the expected information. Well done!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9722222222222222,
+    "answer_relevancy-DeepEval-reason": "The score is 0.97 because the output closely aligns with the input by focusing on the Schedule of Activities (SoA) and providing clear instructions related to the study protocol. However, the reference to a detailed section that's unrelated to these instructions slightly detracts from the otherwise precise relevancy, hence preventing the score from being a perfect 1.0. Overall, the output is exceptionally relevant."
+}

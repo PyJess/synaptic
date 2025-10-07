@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present, indicating a perfect alignment between the actual output and the retrieval context. Everything is accurate and well-documented, showcasing the high quality of the work.",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.0,
+    "answer_relevancy-DeepEval-reason": "The score is 0.00 because the entire response provided no relevant information addressing the specific input regarding 'Study Intervention Compliance'. Instead, the output discussed unrelated topics such as the lack of information in the source document, which is irrelevant to the given input and instructions."
+}

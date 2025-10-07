@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Awesome job! With a faithfulness score of 1.00 and no contradictions listed, the actual output perfectly aligns with the retrieval context. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6363636363636364,
+    "answer_relevancy-DeepEval-reason": "The score is 0.64 because the output includes several relevant study protocol details but also contains unrelated prevalence data which detracts from its focus. While these details about drug administration, study design, and patient criteria are precise, the presence of prevalence information, unrelated to eligibility or study specifics, points to some lack of relevance, holding the score back from being higher."
+}

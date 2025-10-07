@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present in the actual output, indicating it is perfectly aligned with the retrieval context. Excellent job maintaining faithfulness!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.5,
+    "answer_relevancy-DeepEval-reason": "The score is 0.50 because while the output mentions the lack of information on rescreening, it fails to address the specifics requested in the input instructions. There was no detailed information provided on core aspects like the number of allowable rescreenings, time period for procedures, reassessment criteria, or necessity for new informed consent\u2014all crucial to achieving a higher relevancy score."
+}

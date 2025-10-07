@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The faithfulness score is 1.00 because there are no contradictions between the actual output and the retrieval context. Well done on such accurate alignment!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 1.0,
+    "answer_relevancy-DeepEval-reason": "The score is 1.00 because the response fully aligns with the input instructions for handling biomarker evaluation in the study protocol. All guidelines and necessary instructions are covered clearly and precisely, ensuring high relevance and utility."
+}

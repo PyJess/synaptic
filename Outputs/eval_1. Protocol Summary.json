@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.9444444444444444,
+    "faithfulness-DeepEval-reason": "The score is 0.94 because the actual output incorrectly refers to the efficacy outcome as a 'Major Venous Thromboembolism (VTE) endpoint', whereas the retrieval context specifies that the primary outcome is recurrent VTE during the study period.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6111111111111112,
+    "answer_relevancy-DeepEval-reason": "The score is 0.61 because while the output includes relevant key information about the study objectives and methodologies, it is diluted by numerous procedural and screening details that aren't directly related to the primary aims of comparing efficacy and safety of the drugs. These extraneous details lower the relevancy score, but the presence of pertinent study objectives and drug information keeps it above the midpoint."
+}

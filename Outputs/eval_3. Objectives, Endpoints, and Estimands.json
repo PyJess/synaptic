@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions, indicating perfect alignment between the actual output and the retrieval context. Well done!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9655172413793104,
+    "answer_relevancy-DeepEval-reason": "The score is 0.97 because the answer is highly relevant to the input. It thoroughly follows the input instructions, detailing objectives, endpoints, and estimands with clarity and precision. The slight deduction in score is due to the inclusion of an unnecessary comparison of 'Major VTE Endpoint,' which did not add value to the discussion and detracted slightly from the overall focus."
+}

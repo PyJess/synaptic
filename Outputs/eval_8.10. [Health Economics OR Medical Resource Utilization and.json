@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions, indicating perfect alignment between the actual output and the retrieval context. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.75,
+    "answer_relevancy-DeepEval-reason": "The score is 0.75 because while the output does address aspects relevant to health economics and medical resource utilization, some portions that focus on the Quality of Life assessments and the Anti-Clot Treatment Scale are not directly aligned with the primary focus. However, the core elements related to study objectives, parameters, and collection methods relevant to the health economic aspects are present, thus justifying the current score."
+}

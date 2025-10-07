@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.6666666666666666,
+    "faithfulness-DeepEval-reason": "The score is 0.67 because the actual output inaccurately specifies the endpoints and timeframe. It introduces a specific 6-month duration for both the primary efficacy and primary safety endpoints, while the retrieval context only touches on recurrent VTE for efficacy and refrains from discussing a specific timeframe for the safety outcome.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.3333333333333333,
+    "answer_relevancy-DeepEval-reason": "The score is 0.33 because the actual output contains numerous irrelevant statements that do not directly address the detailed input requirements for study protocol generation. While elements such as the statement about GI malignancies, and intricate statistical details on confidence intervals are recognized, these do not align with the input specifics like inclusion and exclusion criteria for the CARAVAGGIO study, leading to a lower score."
+}

@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions. The actual output is completely aligned with the retrieval context, showing complete accuracy and faithfulness. Keep up the excellent work!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.0,
+    "answer_relevancy-DeepEval-reason": "The score is 0.00 because the statements in the actual output were entirely focused on various medical tests and parameters, none of which addressed the main concern of the input: the timing for the analysis and reporting of the study. The listed irrelevant details significantly deviated from the core question, leading to the low score."
+}

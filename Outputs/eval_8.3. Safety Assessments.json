@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Fantastic job! The score is 1.00, showcasing a perfect alignment between the actual output and the retrieval context, with no contradictions present. Keep up the excellent work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.8787878787878788,
+    "answer_relevancy-DeepEval-reason": "The score is 0.88 because the response effectively addresses most elements of the input regarding safety assessment instructions. However, it falls short of a higher score due to the inclusion of details that were not directly relevant, such as the mention of a specific assay and discussion of site-specific bleeding, which did not directly correlate with the broader safety assessment guidelines provided. Despite these few irrelevant points, the response managed to remain largely relevant to the input, justifying its current high score."
+}

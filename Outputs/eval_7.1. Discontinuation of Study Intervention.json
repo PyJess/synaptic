@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output perfectly aligns with the retrieval context. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6521739130434783,
+    "answer_relevancy-DeepEval-reason": "The score is 0.65 because the response provides relevant information on discontinuation criteria, aligning with the input's requirements. However, it includes several statements unrelated to the main topic, such as surgical procedures and guidelines not directly connected to the discontinuation criteria, which affects its overall relevance."
+}

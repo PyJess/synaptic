@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.8571428571428571,
+    "faithfulness-DeepEval-reason": "The score is 0.86 because the claim of 'strict blinding protocols' in the actual output contradicts the retrieval context, which describes the study as open blinded, indicating less stringent blinding measures.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 1.0,
+    "answer_relevancy-DeepEval-reason": "The score is 1.00 because the answer perfectly aligns with the input requirements for study protocol generation. Every element in the output is directly pertinent to the study design, objectives, and methodology, without any irrelevant statements detracting from the content."
+}

@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Exceptional work! The actual output is in perfect harmony with the retrieval context, reflecting a flawless faithfulness score of 1.00.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.8666666666666667,
+    "answer_relevancy-DeepEval-reason": "The score is 0.87 because the output mostly aligns with the input's focus on dose modification procedures. However, it is not higher due to irrelevant references to the type preferences of anticoagulants, which do not specifically detail dose adjustments as needed."
+}

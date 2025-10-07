@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.875,
+    "faithfulness-DeepEval-reason": "The score is 0.88 because the actual output expands on the safety parameters by mentioning a composite safety endpoint involving various bleeding events, which are not stated in the retrieval context. The original context only notes major bleeding as the primary safety outcome, in line with ISTH guidelines. Despite this discrepancy, the faithfulness score remains high, indicating that most of the actual output aligns well with the context.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.6,
+    "answer_relevancy-DeepEval-reason": "The score is 0.60 because while the output provides relevant details about the CARAVAGGIO Study, several statements were dedicated to discussing results from unrelated studies, detracting from focus on the primary study. However, the details aligning closely with the CARAVAGGIO Study are accurate, keeping the score at 0.60."
+}

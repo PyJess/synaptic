@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 0.8571428571428571,
+    "faithfulness-DeepEval-reason": "The score is 0.86 because while the context specifies fewer than 600 patients per treatment group, the total enrollment mentioned is still within a plausible range when accounting for potential rounding or estimation deviations. ",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9,
+    "answer_relevancy-DeepEval-reason": "The score is 0.90 because most of the output closely adheres to the instruction for sample size determination, with detailed guidelines for describing the expected participant numbers and statistical considerations. However, the mention of the AMPLIFY study, while potentially relevant in a broader context, does not directly align with illustrating the required protocol's specific sample size determination. This slightly decreases the relevancy score but overall, the inclusion of substantial relevant details keeps the score high."
+}

@@ -1,0 +1,34 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "",
+    "tested_imp": "Apixaban",
+    "comparative_drug": "Dalteparin",
+    "study_type": "",
+    "interventional_study_phase": "",
+    "study_design": "Non-inferiority trial, time-to-event analysis, parallel group",
+    "aim_of_study": "To test whether apixaban is non-inferior to dalteparin in preventing recurrent VTE in cancer patients, with a favorable balance between benefits and harms.",
+    "target_disease": "Cancer-associated venous thromboembolism (VTE) (including acute proximal DVT or PE)",
+    "type_of_randomization": "",
+    "randomization_stratification": [],
+    "apixaban_dosing": "",
+    "dalteparin_dosing": "",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [],
+    "primary_efficacy_outcome": "Time to first event of the composite of recurrent VTE over 6 months.",
+    "secondary_efficacy_outcomes": [],
+    "primary_safety_outcome": "Incidence of major bleeding over 6 months.",
+    "secondary_safety_outcomes": [],
+    "maximum_sample_size_per_arm": 0,
+    "recommended_inclusion_criteria": [
+        "Patients with cancer and symptomatic or incidentally diagnosed acute proximal deep vein thrombosis (DVT) or pulmonary embolism (PE)"
+    ],
+    "recommended_exclusion_criteria": [
+        "Patients with basal cell or squamous cell skin cancers",
+        "Patients with primary or metastatic cerebral cancers",
+        "Patients with known brain metastases",
+        "Patients with acute leukaemia",
+        "Patients with severe renal impairment (creatinine clearance <30 mL/min)",
+        "Careful consideration for patients with GI malignancies due to higher risk of bleeding"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present, confirming the reliability and faithful alignment of the actual output with the retrieval context. Great work maintaining accuracy and coherence!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 1.0,
+    "answer_relevancy-DeepEval-reason": "The score is 1.00 because the output is completely relevant to the input, addressing all lifestyle considerations meticulously. This ensures thorough alignment with the provided instructions and study specifics."
+}

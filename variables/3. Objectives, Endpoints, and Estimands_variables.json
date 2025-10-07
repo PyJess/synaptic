@@ -1,0 +1,40 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "",
+    "tested_imp": "apixaban",
+    "comparative_drug": "dalteparin",
+    "study_type": "",
+    "interventional_study_phase": "",
+    "study_design": "",
+    "aim_of_study": "To assess the non-inferiority of oral apixaban compared to subcutaneous low molecular weight heparin (LMWH) dalteparin for the treatment of newly diagnosed proximal deep vein thrombosis (DVT) and/or pulmonary embolism (PE) in patients with cancer.",
+    "target_disease": "Venous Thromboembolism (VTE) in patients with cancer (including DVT and/or PE)",
+    "type_of_randomization": "",
+    "randomization_stratification": [],
+    "apixaban_dosing": "",
+    "dalteparin_dosing": "",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [],
+    "primary_efficacy_outcome": "Incidence of objectively confirmed recurrent Venous Thromboembolism (VTE) at 6 months, a composite of: Proximal Deep Vein Thrombosis (DVT) of the lower limbs, Symptomatic DVT of the upper limb, Pulmonary Embolism (PE).",
+    "secondary_efficacy_outcomes": [
+        "Major Venous Thromboembolism (VTE) endpoint, a composite of proximal DVT, non-fatal PE, and VTE-related death.",
+        "Individual components of the primary efficacy outcome.",
+        "Symptomatic recurrence of VTE.",
+        "All-cause death.",
+        "Composite of primary efficacy outcome plus major bleeding.",
+        "Any major cardiovascular event, fatal or non-fatal.",
+        "Quality of Life (QoL) assessed according to the Anti-Clot Treatment Scale (ACTS)."
+    ],
+    "primary_safety_outcome": "Incidence of major bleeding at 6 months, as defined by the International Society on Thrombosis and Haemostasis (ISTH) guidelines.",
+    "secondary_safety_outcomes": [
+        "Composite of major bleeding and clinically relevant non-major bleeding (CRNMB).",
+        "All bleeding events.",
+        "Incidence of major bleeding (MB).",
+        "Incidence of CRNMB.",
+        "Rates of major bleeding in patient subgroups.",
+        "Composite of major bleeding and CRNMB according to primary cancer site (Gastrointestinal, Genitourinary, Lung, Breast, Gynecological, Hematological)."
+    ],
+    "maximum_sample_size_per_arm": 0,
+    "recommended_inclusion_criteria": [],
+    "recommended_exclusion_criteria": []
+}

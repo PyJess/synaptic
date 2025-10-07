@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Wow, amazing! The score is 1.00 because the actual output is perfectly aligned with the retrieval context. Excellent attention to detail!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.5909090909090909,
+    "answer_relevancy-DeepEval-reason": "The score is 0.59 because while the relevant mandatory sponsor inputs for study protocol generation were accurately mentioned, the output also included several procedural and operational details not directly relevant to the input criteria. This inclusion of non-essential information regarding protocol procedures and post-study considerations resulted in a partial mismatch with the input's focus on mandatory sponsor inputs, preventing a higher score. However, the initial inclusion of necessary information, such as drug names, study design, and objectives, ensured the score was not lower."
+}

@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because the actual output aligns perfectly with the retrieval context, showing a complete lack of contradictions. Well done!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.6,
+    "answer_relevancy-DeepEval-reason": "The score is 0.60 because, while the response briefly touches on elements of the study size, it is not addressing the instructions to focus on the criteria specifically. However, it does provide some pertinent context around the study, maintaining a decent level of relevance."
+}

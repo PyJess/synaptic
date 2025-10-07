@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Exceptional work! The output perfectly aligns with the retrieval context, ensuring a flawless faithfulness score of 1.00. Keep up the fantastic consistency!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 1.0,
+    "answer_relevancy-DeepEval-reason": "The score is 1.00 because the response perfectly aligned with the provided instructions and input details. The comprehensive overview of the study, combined with the absence of irrelevant content, contributes to the exceptional relevancy score. It's a testament to the accuracy and precision achieved in addressing every aspect of the input."
+}

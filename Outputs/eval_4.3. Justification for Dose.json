@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions, indicating a perfect alignment between the actual output and the retrieval context. Excellent! Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 1.0,
+    "answer_relevancy-DeepEval-reason": "The score is 1.00 because the output faithfully followed the instructions without any irrelevant content, addressing all aspects of the dose justification, administration route rationale, scientific foundation for FTiH studies, and safety measures regarding dosing adjustments. The thoroughness and clarity of the instruction adherence contribute to the perfect score, ensuring that all necessary protocol justifications are comprehensively covered."
+}

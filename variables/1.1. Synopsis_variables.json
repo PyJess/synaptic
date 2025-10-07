@@ -1,0 +1,56 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "CARAVAGGIO",
+    "tested_imp": "apixaban",
+    "comparative_drug": "dalteparin",
+    "study_type": "interventional",
+    "interventional_study_phase": "Phase IIIB/Phase 3",
+    "study_design": "International, multicenter, pivotal, interventional, prospective randomized open blinded end-point (PROBE), pragmatic, open-label, non-inferiority, active-controlled, event-driven, randomized controlled trial. Masking applied to assessor for outcome adjudication, not to participant or investigator.",
+    "aim_of_study": "To compare the efficacy and safety of apixaban with dalteparin for the treatment of acute venous thromboembolism (VTE) in patients with cancer.",
+    "target_disease": "cancer-associated venous thromboembolism (VTE), including symptomatic or incidentally diagnosed acute proximal deep vein thrombosis (DVT) or pulmonary embolism (PE)",
+    "type_of_randomization": "randomized controlled trial (RCT)",
+    "randomization_stratification": [],
+    "apixaban_dosing": "10 mg orally twice daily for the first 7 days, then 5 mg orally twice daily for 6 months",
+    "dalteparin_dosing": "200 IU/kg subcutaneously once daily for the first month, then 150 IU/kg subcutaneously once daily for the subsequent five months",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [
+        "Treatment duration: 6 months",
+        "Follow-up visit at 7 months from randomization"
+    ],
+    "primary_efficacy_outcome": "Recurrent VTE (non-inferiority of apixaban compared to dalteparin for treatment of newly diagnosed proximal DVT and/or PE in patients with cancer)",
+    "secondary_efficacy_outcomes": [
+        "Composite of major and clinically relevant non-major (CRNM) bleeding, and all bleeding events",
+        "Incidence of major bleeding (MB) and clinically relevant non-major bleeding (CRNMB)",
+        "Rates of major bleeding in patient subgroups",
+        "Incidence of Major Venous Thromboembolism (VTE) endpoint (composite of proximal DVT, non-fatal PE, and VTE-related death)",
+        "Efficacy in patient subgroups defined by cancer type and VTE type (incidental vs symptomatic)",
+        "Individual components of the primary efficacy outcome",
+        "Symptomatic recurrence of VTE",
+        "All-cause death",
+        "Composite of primary efficacy outcome plus major bleeding",
+        "Composite of primary efficacy outcome plus all-cause death",
+        "Composite of primary efficacy outcome plus major bleeding plus all-cause death",
+        "Any major cardiovascular event, fatal or non-fatal, including acute myocardial infarction or ischemic stroke",
+        "All venous thromboembolic events, including splanchnic vein thrombosis and cerebral vein thrombosis",
+        "Permanent early discontinuation of the study drug due to safety reasons",
+        "Quality of Life (QoL) according to the Anti-Clot Treatment Scale (ACTS)",
+        "Analyses and report on patient subgroups defined by cancer type, cancer treatment, and incidental vs symptomatic VTE"
+    ],
+    "primary_safety_outcome": "Major bleeding (MB) and clinically relevant non-major bleeding (CRNMB)",
+    "secondary_safety_outcomes": [
+        "All bleeding events",
+        "Rates of major bleeding in patient subgroups",
+        "Permanent early discontinuation of the study drug due to safety reasons"
+    ],
+    "maximum_sample_size_per_arm": 585,
+    "recommended_inclusion_criteria": [
+        "Patients with cancer-associated VTE, including symptomatic or incidentally diagnosed acute proximal DVT or PE"
+    ],
+    "recommended_exclusion_criteria": [
+        "Basal cell or squamous cell skin cancers",
+        "Primary or metastatic cerebral cancers",
+        "Known brain metastases",
+        "Acute leukaemia"
+    ]
+}

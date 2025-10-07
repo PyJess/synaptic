@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because the actual output exhibits complete alignment with the retrieval context, showcasing a perfect understanding and interpretation of the provided information. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.8823529411764706,
+    "answer_relevancy-DeepEval-reason": "The score is 0.88 because, although the output primarily focuses on detailing the necessary inclusion criteria relevant to the study, it includes some statements regarding exclusions such as contraceptive requirements and BMI criteria, which are irrelevant to the inclusion focus of the input. Despite these minor deviations, the majority of the content effectively addresses the core elements of the inclusion criteria, hence the relatively high score."
+}

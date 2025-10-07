@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because there are no contradictions present. This suggests that the actual output perfectly aligns with the information presented in the retrieval context. Great work in maintaining consistency and accuracy!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.7142857142857143,
+    "answer_relevancy-DeepEval-reason": "The score is 0.71 because the response adequately addresses several key instructions from the input, such as the storage and accountability instructions for study drugs and details of the study design. However, it wasn't higher due to irrelevant statements about compatibility and storage details of Dalteparin and Apixaban, which are not directly related to the provided protocol instructions. Nevertheless, these elements provided some additional context, contributing positively to the relevance, thus ensuring the score isn't lower."
+}

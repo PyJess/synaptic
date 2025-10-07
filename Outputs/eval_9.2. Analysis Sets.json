@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 0.8888888888888888,
+    "faithfulness-DeepEval-reason": "The score is 0.89 because the actual output slightly overstates the number of patients involved, claiming 671 patients whereas the retrieval context clearly indicates that enrollment is capped at under 600 per treatment group. This discrepancy suggests a minor deviation from the context, impacting the faithfulness of the statement.",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.47368421052631576,
+    "answer_relevancy-DeepEval-reason": "The score is 0.47 because the output contains several irrelevant statements that do not pertain directly to defining or discussing analysis sets, which is the central theme of the input. However, the output still maintains a moderate relevancy because it partially addresses aspects related to analysis sets despite being clouded by unrelated selection and eligibility criteria."
+}

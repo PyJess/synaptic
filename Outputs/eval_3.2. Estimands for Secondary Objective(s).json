@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Awesome job! The faithfulness score is 1.00, reflecting a perfect alignment between the actual output and the retrieval context. Keep up the great work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.9333333333333333,
+    "answer_relevancy-DeepEval-reason": "The score is 0.93 because the majority of the output is highly relevant to the input, thoroughly covering study protocol details such as drugs, dosage, objectives, sample size, and criteria. The slight reduction in score is due to the supplementary estimand(s) statement, which doesn't directly address mandatory sponsor inputs but instead pertains to internal analysis metrics."
+}

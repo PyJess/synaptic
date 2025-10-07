@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 1,
+    "faithfulness-DeepEval-score": 1.0,
+    "faithfulness-DeepEval-reason": "Great job! The faithfulness score is 1.00 because the actual output perfectly aligns with the retrieval context, showcasing complete consistency and accuracy. Keep up the excellent work!",
+    "ResponseRelevancy-Ragas-score": 1,
+    "answer_relevancy-DeepEval-score": 0.8421052631578947,
+    "answer_relevancy-DeepEval-reason": "The score is 0.84 because the response is mostly relevant to the input's detailed protocol objectives and setup. However, a few elements mentioned, such as outlining tests in 'Table 1' and specific screening tests not directly tied to the task, slightly detract from perfect relevance. Nonetheless, the response is closely aligned with the protocol requirements, reflecting the high score."
+}

@@ -1,0 +1,31 @@
+{
+    "sponsor_name": "",
+    "study_acronym": "",
+    "tested_imp": "",
+    "comparative_drug": "",
+    "study_type": "",
+    "interventional_study_phase": "",
+    "study_design": "",
+    "aim_of_study": "",
+    "target_disease": "",
+    "type_of_randomization": "",
+    "randomization_stratification": [],
+    "apixaban_dosing": "",
+    "dalteparin_dosing": "",
+    "apixaban_supply_form": "",
+    "dalteparin_supply_form": "",
+    "scheduled_visits": [],
+    "primary_efficacy_outcome": "",
+    "secondary_efficacy_outcomes": [],
+    "primary_safety_outcome": "",
+    "secondary_safety_outcomes": [],
+    "maximum_sample_size_per_arm": 0,
+    "recommended_inclusion_criteria": [
+        "Participant must be greater than 18 years of age.",
+        "Must be a consecutive patient with a newly diagnosed, objectively confirmed symptomatic or unsuspected proximal lower-limb DVT, or symptomatic PE, or unsuspected PE in a segmental or more proximal pulmonary artery.",
+        "Must have any type of cancer (excluding basal-cell or squamous-cell carcinoma of the skin, primary brain tumor, known intracerebral metastases, and acute leukemia) that meets at least one of the following criteria: Active Cancer (diagnosis of cancer within six months before study inclusion, or receiving treatment for cancer at the time of inclusion, or any treatment for cancer during the 6 months prior to randomization, or recurrent locally advanced or metastatic cancer, or as defined by: (1) nonsquamous cell or basal cell invasive cancer diagnosed within 6 months before enrollment, (2) cancer treated within the previous 6 months, (3) recurrent or metastatic cancer, or (4) active cancer during the study), or History of Cancer (cancer diagnosed within 2 years before study inclusion).",
+        "Both male and female participants will be eligible.",
+        "Signed informed consent as described in Appendix 1 which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol."
+    ],
+    "recommended_exclusion_criteria": []
+}

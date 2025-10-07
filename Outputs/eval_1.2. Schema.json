@@ -1,0 +1,8 @@
+{
+    "faithfulness-Ragas-score": 0,
+    "faithfulness-DeepEval-score": 1,
+    "faithfulness-DeepEval-reason": "The score is 1.00 because no contradictions were found, indicating perfect alignment between the actual output and the retrieval context. Keep up the excellent accuracy in presenting information!",
+    "ResponseRelevancy-Ragas-score": 0,
+    "answer_relevancy-DeepEval-score": 0.0,
+    "answer_relevancy-DeepEval-reason": "The score is 0.00 because the output was completely off-topic, focusing on elements unrelated to the study protocol, such as mentioning a 'schema' and 'version 1.2,' which provide no value to the detailed study information in the input."
+}
